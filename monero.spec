@@ -15,7 +15,7 @@ are your bank, you control your funds, and nobody can trace your transfers
 unless you allow them to do so.
 
 %prep
-%autosetup
+%setup -q
 
 %build
 make %{?_smp_mflags}
